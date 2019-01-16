@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+
+
+    <h1>Survey</h1>
+    <div class="container">
+    <form id="survey">
+     <div class="form-group">
+       <label for="name">Name:</label>
+       <input id="name" class="form-control" type="text">
+     </div>
+     <div class="form-group">
+       <label for="date">Date of Birth:</label>
+       <input id="date" class="form-control" type="date">
+     </div>
+     <div class="form-group">
+       <select class="form-control" id="food">
+         <option>Mexican</option>
+         <option>Thai</option>
+         <option>Indian</option>
+         <option>Chinese</option>
+       </select>
+     </div>
+
+     <div class="radio">
+       <label>
+       <input type="radio" name="music" value="rock" checked>
+        Rock & Roll
+       </label>
+     </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="music" value="classical">
+           Classical
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="music" value="country">
+           Country
+         </label>
+       </div>
+
+
+       <div class="form-group">
+         <label for="color">Favorite Color:</label>
+         <input id="color" class="form-control" type="color">
+       </div>
+
+     </div>
+
+     <button type="submit" class="btn">Stuff about you!</button>
+   </form>
+   <div id="output">
+
+   </div>
+
+ </div>
+
+
+  </body>
+</html>
